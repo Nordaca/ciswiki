@@ -1,0 +1,52 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+  color: aqua;
+  background-color: black;
+  font-family: monospace;
+}
+
+.grid-parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+
+  color: aqua;
+  background-color: black;
+
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.wikifoot {
+  position: absolute;
+  bottom: 0px;
+  padding: 1%;
+}
+
+.wikibody {
+  border: 1px solid aqua;
+}
+
+.wikihead {
+  top: 0px;
+  padding: 1%;
+}
+
+p {
+  font-size: 110%;
+}
+
+h3 {
+  font-size: 150%;
+}
+
+
+a, a:visited {
+  background: none;
+  font-family: monospace;
+  color: aqua;
+}
