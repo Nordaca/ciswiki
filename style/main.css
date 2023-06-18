@@ -29,6 +29,9 @@ body, html {
 
 .wikibody {
   border: 1px solid aqua;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 1%;
 }
 
 .wikihead {
