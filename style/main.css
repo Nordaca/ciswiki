@@ -23,6 +23,8 @@ body, html {
 }
 .wikifoot {
   bottom: 0px;
+  margin-left: 10%;
+  margin-right: 10%;
   padding: 1%;
 }
 
@@ -36,6 +38,8 @@ body, html {
 .wikihead {
   top: 0px;
   padding: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 p {
