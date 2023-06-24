@@ -4,6 +4,7 @@ body, html {
   color: aqua;
   background-color: black;
   font-family: monospace;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/background.png');
 }
 
 .grid-parent {
